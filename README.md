@@ -31,7 +31,7 @@ This is a section of the Cyfrin Solidity Course.
 ## Quickstart
 
 ```
-git clone https://github.com/Cyfrin/foundry-fund-me-f23
+git clone https://github.com/Welith/foundry-fundme
 cd foundry-fund-me-f23
 forge build
 ```
