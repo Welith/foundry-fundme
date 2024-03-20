@@ -32,7 +32,7 @@ This is a section of the Cyfrin Solidity Course.
 
 ```
 git clone https://github.com/Welith/foundry-fundme
-cd foundry-fund-me-f23
+cd foundry-fundme
 forge build
 ```
 
@@ -87,7 +87,7 @@ forge coverage
 
 1. Setup environment variables
 
-You'll want to set your `SEPOLIA_RPC_URL` as an environment variable. You can add it to a `.env` file, similar to what you see in `.env.example`.
+You'll want to set your `SEPOLIA_RPC_URL` as an environment variable. You can add it to a `.env` file.
 
 - You will need to create a wallet key, which will contain your `PRIVATE_KEY`, so that we do not expose it in the `.env` file.
   - This is done with the `cast wallet import <KEY_NAME> -i` command, where `<KEY_NAME>` can be replace with one of your choosing. The `-i` command will prompt you to enter your `PRIVATE_KEY` and then lock it with a password.
